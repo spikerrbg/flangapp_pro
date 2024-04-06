@@ -30,4 +30,4 @@ workflows:
       scripts:
         - name: HTTP notification
           script: |
-            curl https://api.appifay.eu/public/observe/notice?uid=b1348a10-d7f2-390c-3dc4-bf9a6105c8fd
+            curl https://api.appifay.eu/public/observe/notice?uid=3cfb9136-991a-1484-3e42-ff98ddc0190d
