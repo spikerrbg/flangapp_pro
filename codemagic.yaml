@@ -20,7 +20,7 @@ workflows:
           find . -name "Podfile" -execdir pod install \;
       - name: Build AAB with Flutter
         script: |
-          cd . && flutter build appbundle --release --no-tree-shake-icons --build-name=1.0.6 --build-number=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks="$GOOGLE_PLAY_TRACK") + 1))
+          cd . && flutter build appbundle --release --no-tree-shake-icons --build-name=1.2.7 --build-number=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks="$GOOGLE_PLAY_TRACK") + 1))
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
@@ -30,4 +30,4 @@ workflows:
       scripts:
         - name: HTTP notification
           script: |
-            curl https://api.appifay.eu/public/observe/notice?uid=3cfb9136-991a-1484-3e42-ff98ddc0190d
+            curl https://api.appifay.eu/public/observe/notice?uid=5a4b1786-7338-14ad-9753-77fde8ab1738
