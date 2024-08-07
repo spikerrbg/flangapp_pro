@@ -59,16 +59,8 @@
     </array>
     <key>UIRequiresFullScreen</key>
     <true/>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>Позволете приложението JOBee да има достъп до местоположението Ви.</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>Позволете приложението JOBee да има достъп до местоположението Ви.</string>
-
-    <key>NSCameraUsageDescription</key>
-<string>Позволете приложението JOBee да има достъп до Вашата камера.</string>
-
-    <key>NSMicrophoneUsageDescription</key>
-<string>Позволете приложението JOBee да има достъп до микрофона Ви.</string>
-
+    
+    
+    
 </dict>
 </plist>
