@@ -60,7 +60,11 @@
     <key>UIRequiresFullScreen</key>
     <true/>
     
-    
-    
+    <key>NSCameraUsageDescription</key>
+<string>Позволете приложението JOBee да има достъп до Вашата камера.</string>
+
+    <key>NSMicrophoneUsageDescription</key>
+<string>Позволете приложението JOBee да има достъп до микрофона Ви.</string>
+
 </dict>
 </plist>
