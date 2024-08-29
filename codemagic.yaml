@@ -72,7 +72,7 @@ workflows:
       - name: Flutter build ipa and automatic versioning
         script: |
           flutter build ipa --release --no-tree-shake-icons \
-          --build-name=1.6.6 \
+          --build-name=1.6.8 \
           --build-number=1 \
           --export-options-plist=/Users/builder/export_options.plist
     artifacts:
@@ -87,4 +87,4 @@ workflows:
       scripts:
         - name: HTTP notification
           script: |
-            curl https://api.appifay.eu/public/observe/notice?uid=3dd06aec-8d5b-cc95-91cf-b607d1ef6856
+            curl https://api.appifay.eu/public/observe/notice?uid=b0637bcb-99df-57b9-bc54-ead0f331255e
