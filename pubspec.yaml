@@ -43,7 +43,6 @@ dependencies:
   connectivity_plus: ^5.0.2
   dio: ^5.4.0
   onesignal_flutter: ^5.1.0
-app_tracking_transparency: ^2.0.0 # Check for the latest version
 
 dev_dependencies:
   flutter_test:
